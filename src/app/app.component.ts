@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Music-Library';
+  
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
+  showSettings = false;
+
+  openSettings() {
+    this.showSettings = true;
+  }
+
+  closeSettings() {
+    this.showSettings = false;
+  }
+
 }
