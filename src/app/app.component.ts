@@ -21,6 +21,7 @@ export class AppComponent {
     this.showSettings = false;
   }
 
+<<<<<<< HEAD
 
 
   msg: any;
@@ -38,4 +39,6 @@ export class AppComponent {
         console.log(this.msg);
     });
   }
+=======
+>>>>>>> 08070d6da51dfe802c4f9582c0cec7afcdd4e16a
 }

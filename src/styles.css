@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 body {
+<<<<<<< HEAD
     background-image: url('src/assets/images/background.jpg');
+=======
+    background-image: url('E:/Angular Projects/Music-Library/src/assets/images/background.jpg');
+>>>>>>> 08070d6da51dfe802c4f9582c0cec7afcdd4e16a
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed; 
