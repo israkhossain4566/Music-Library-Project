@@ -1,0 +1,78 @@
+<div class="playlist">
+  <div *ngIf="genre.pop.length > 0">
+    <h3>Pop🎧</h3>
+    <ul>
+      <li *ngFor="let song of genre.pop">
+        <div class="song-info">
+          <strong>{{ song.name }}</strong> - {{ song.artist }}
+        </div>
+      </li>
+    </ul>
+  </div>
+  <br>
+
+  <div *ngIf="genre.rock.length > 0">
+    <h3>Rock🎸</h3>
+    <ul>
+      <li *ngFor="let song of genre.rock">
+        <div class="song-info">
+          <strong>{{ song.name }}</strong> - {{ song.artist }}
+        </div>
+      </li>
+    </ul>
+
+  </div>
+  <br>
+
+  <div *ngIf="genre.indie.length > 0">
+    <h3>Indie🌊</h3>
+    <ul>
+      <li *ngFor="let song of genre.indie">
+        <div class="song-info">
+          <strong>{{ song.name }}</strong> - {{ song.artist }}
+        </div>
+      </li>
+    </ul>
+
+  </div>
+  <br>
+
+  <div *ngIf="genre.classical.length > 0">
+    <h3>Classical🎼</h3>
+    <ul>
+      <li *ngFor="let song of genre.classical">
+        <div class="song-info">
+          <strong>{{ song.name }}</strong> - {{ song.artist }}
+        </div>
+      </li>
+    </ul>
+
+  </div>
+  <br>
+
+
+  <div *ngIf="genre.metal.length > 0">
+    <h3>Metal⚡</h3>
+    <ul>
+      <li *ngFor="let song of genre.metal">
+        <div class="song-info">
+          <strong>{{ song.name }}</strong> - {{ song.artist }}
+        </div>
+      </li>
+    </ul>
+
+  </div>
+  <br>
+  
+
+</div>
+  
+  <div class="profile-actions">
+    <button routerLink="/playlist" style="font-size: 16px;">Go Back</button>
+  </div>
+  
+  
+  
+  
+  
+  

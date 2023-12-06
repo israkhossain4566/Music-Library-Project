@@ -1,0 +1,29 @@
+.about-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: last baseline;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: -900px;
+    margin-top: 20px;
+    margin-right: 200px;
+    font-size: x-large;
+    color: white;
+    background-color: transparent;
+    height: 40vh;
+    width: 52vh;
+    left: 35%;
+    top: 50%;
+}
+.content-container {
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 18%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    
+  }

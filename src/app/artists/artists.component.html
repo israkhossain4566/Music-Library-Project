@@ -1,0 +1,21 @@
+<!-- src/app/artists/artists.component.html -->
+<div class="artists">
+    <h2>Artists</h2>
+    <ul>
+      <li *ngFor="let artist of artists" class="artist">
+        <div class="artist-info">
+          <h3><a [routerLink]="['/artist', artist.name]" routerLinkActive="active-link">{{ artist.name }}</a></h3>
+          
+          
+          <p>{{ artist.biography }}</p>
+          <p>Country: {{ artist.country }}</p>
+          <p>Followers: {{ artist.followers }}</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="profile-actions">
+    <button routerLink="/playlist" style="font-size: 16px;">Go Back</button>
+  </div>
+  

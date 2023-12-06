@@ -1,0 +1,38 @@
+<div class="profile-actions">
+  <button routerLink="/dashboard" style=" font-size: 18px;">Return to Dashboard</button>
+  
+</div>
+
+
+<div class="profile-container">
+    <h2>Profile</h2>
+  
+    <!-- Display Current User Information -->
+    <div class="profile-info">
+      <label for="username">Username:</label>
+      <span id="username"> Not Set</span>
+    </div>
+  
+    <div class="profile-info">
+      <label for="password">Password:</label>
+      <span id="password"> ********</span>
+    </div>
+  
+    <!-- Edit User Information Form -->
+    <div class="profile-edit">
+      <form>
+        <div class="form-field">
+          <label for="newUsername">New Username: </label>
+          <input type="text" id="newUsername" name="newUsername" placeholder="Enter new username">
+        </div>
+  
+        <div class="form-field">
+          <label for="newPassword">New Password: </label>
+          <input type="password" id="newPassword" name="newPassword" placeholder="Enter new password">
+        </div>
+  
+        <button type="submit">Save Changes</button>
+      </form>
+    </div>
+  </div>
+  

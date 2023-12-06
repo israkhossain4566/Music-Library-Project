@@ -1,0 +1,23 @@
+<form [formGroup]="settingsForm" (ngSubmit)="saveSettings()">
+    <h2>Settings</h2>
+  
+    <label for="username">Username:</label>
+    <input type="text" id="username" formControlName="username" />
+  
+    <label>
+      <input type="checkbox" formControlName="isPrivate" />
+      Keep Account Private
+    </label>
+  
+    <label>
+      <input type="checkbox" formControlName="receiveNotifications" />
+      Receive Notifications
+    </label>
+  
+    <label>
+      <input type="checkbox" formControlName="twoFactorAuth" />
+      Enable Two-Factor Authentication
+    </label>
+  
+    <button type="submit">Save Settings</button>
+  </form>

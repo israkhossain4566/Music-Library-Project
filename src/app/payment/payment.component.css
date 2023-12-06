@@ -1,0 +1,44 @@
+.payment-content {
+    top: 270px;
+    background-color: rgba(179, 156, 114, 0.557);
+    color: black;
+    position: relative;
+    width: 350px;
+    padding: 35px;
+    margin: auto;
+    font-size: medium;
+}
+
+.payment-content label {
+    width: 160px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.button-container {
+    text-align: right;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+.profile-actions button {
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top: -100px;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+  }
