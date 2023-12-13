@@ -1,10 +1,15 @@
+<<<<<<< HEAD
 // login-signup.component.ts
 import { Component } from '@angular/core';
 import { AuthService } from '../auth.service';
+=======
+import { Component } from '@angular/core';
+>>>>>>> 3e93786da94f7391e7485ff54174a0ce65c0f347
 
 @Component({
   selector: 'app-login-signup',
   templateUrl: './login-signup.component.html',
+<<<<<<< HEAD
   styleUrls: ['./login-signup.component.css'],
 })
 export class LoginSignupComponent {
@@ -35,4 +40,10 @@ export class LoginSignupComponent {
       }
     );
   }
+=======
+  styleUrls: ['./login-signup.component.css']
+})
+export class LoginSignupComponent {
+  
+>>>>>>> 3e93786da94f7391e7485ff54174a0ce65c0f347
 }

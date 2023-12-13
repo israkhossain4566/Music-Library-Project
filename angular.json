@@ -33,8 +33,12 @@
             "scripts": [
               "src/assets/custom.js",
               
+<<<<<<< HEAD
               "/src/assets/musicplayer.js",
               "src/assets/deactivate.js"
+=======
+              "/src/assets/musicplayer.js"
+>>>>>>> 3e93786da94f7391e7485ff54174a0ce65c0f347
 
             ]
           },

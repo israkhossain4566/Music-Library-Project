@@ -14,11 +14,14 @@ import { ArtistListComponent } from './artist-list/artist-list.component';
 import { PlaylistComponent } from './playlist/playlist.component';
 import { SongListComponent } from './song-list/song-list.component';
 import { ArtistsComponent } from './artists/artists.component';
+<<<<<<< HEAD
 import { HelplineComponent } from './helpline/helpline.component';
 import { DeactivateComponent } from './deactivate/deactivate.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReportComponent } from './report/report.component';
+=======
+>>>>>>> 3e93786da94f7391e7485ff54174a0ce65c0f347
 
 
 const routes: Routes = [
@@ -37,11 +40,14 @@ const routes: Routes = [
   {path: 'playlist', component: PlaylistComponent},
   {path: 'song-list', component: SongListComponent},
   {path: 'artists', component: ArtistsComponent},
+<<<<<<< HEAD
   {path: 'helpline', component: HelplineComponent},
   {path: 'deactivate', component: DeactivateComponent},
   {path: 'feedback', component: FeedbackComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'report', component: ReportComponent}
+=======
+>>>>>>> 3e93786da94f7391e7485ff54174a0ce65c0f347
 ];
 
 @NgModule({

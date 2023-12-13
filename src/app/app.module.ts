@@ -1,8 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
+<<<<<<< HEAD
 
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+=======
+<<<<<<< HEAD
+
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+=======
+>>>>>>> 08070d6da51dfe802c4f9582c0cec7afcdd4e16a
+>>>>>>> 3e93786da94f7391e7485ff54174a0ce65c0f347
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,11 +29,14 @@ import { ArtistListComponent } from './artist-list/artist-list.component';
 import { PlaylistComponent } from './playlist/playlist.component';
 import { SongListComponent } from './song-list/song-list.component';
 import { ArtistsComponent } from './artists/artists.component';
+<<<<<<< HEAD
 import { HelplineComponent } from './helpline/helpline.component';
 import { DeactivateComponent } from './deactivate/deactivate.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReportComponent } from './report/report.component';
+=======
+>>>>>>> 3e93786da94f7391e7485ff54174a0ce65c0f347
 
 @NgModule({
   declarations: [
@@ -43,19 +54,32 @@ import { ReportComponent } from './report/report.component';
     ArtistListComponent,
     PlaylistComponent,
     SongListComponent,
+<<<<<<< HEAD
     ArtistsComponent,
     HelplineComponent,
     DeactivateComponent,
     FeedbackComponent,
     ContactComponent,
     ReportComponent
+=======
+    ArtistsComponent
+>>>>>>> 3e93786da94f7391e7485ff54174a0ce65c0f347
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+<<<<<<< HEAD
     ReactiveFormsModule,
     HttpClientModule
+=======
+<<<<<<< HEAD
+    ReactiveFormsModule,
+    HttpClientModule
+=======
+    ReactiveFormsModule
+>>>>>>> 08070d6da51dfe802c4f9582c0cec7afcdd4e16a
+>>>>>>> 3e93786da94f7391e7485ff54174a0ce65c0f347
   ],
   providers: [],
   bootstrap: [AppComponent]
