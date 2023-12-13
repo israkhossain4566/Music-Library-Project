@@ -1,0 +1,65 @@
+/* src/app/playlist/playlist.component.css */
+.playlist {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  width: 70%; /* Adjust the width as needed */
+  margin: auto;
+  position: relative;
+  top: 250px;
+  /* Remove right and set left for center alignment */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+h3 {
+  color: #fff;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping to the next line */
+}
+
+li {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: calc(25% - 20px); /* Set the width for each item in a row (adjust as needed) */
+}
+
+.song-info {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+strong {
+  margin-right: 10px;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 125px;
+}

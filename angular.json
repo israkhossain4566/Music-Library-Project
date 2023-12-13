@@ -25,9 +25,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+
+              
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/custom.js",
+              
+              "/src/assets/musicplayer.js",
+              "src/assets/deactivate.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -88,11 +97,15 @@
             ],
             "styles": [
               "src/styles.css"
+              
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "50c67eea-64ca-43a2-9b01-c34086711903"
   }
 }

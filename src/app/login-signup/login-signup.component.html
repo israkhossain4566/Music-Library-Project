@@ -1,0 +1,46 @@
+<!-- login-signup.component.html -->
+<div class="cd-tabs">
+  <nav>
+    <ul class="cd-tabs-navigation">
+      <li><a href="#" data-content="login" class="selected">Login</a></li>
+      <li><a href="#" data-content="signup">Signup</a></li>
+    </ul>
+  </nav>
+  <ul class="cd-tabs-content">
+    <!-- Login Form -->
+    <li data-content="login" class="selected">
+      <form name="login-form" (ngSubmit)="login(username.value, password.value)">
+        <div class="form-fild">
+          <label for="username">Username</label>
+          <input type="text" name="username" #username>
+        </div>
+        <div class="form-fild">
+          <label for="password">Password</label>
+          <input type="password" name="password" #password>
+        </div>
+        <span class="error"></span>
+        <button type="submit">Submit</button>
+      </form>
+    </li>
+
+    <!-- Signup Form -->
+    <li data-content="signup">
+      <form name="signup-form" (ngSubmit)="signup(susername.value, spassword.value, spassword2.value)">
+        <div class="form-fild">
+          <label for="susername">Username</label>
+          <input type="text" name="susername" #susername>
+        </div>
+        <div class="form-fild">
+          <label for="spassword">Password</label>
+          <input type="password" name="spassword" #spassword>
+        </div>
+        <div class="form-fild">
+          <label for="spassword2">Password again</label>
+          <input type="password" name="spassword2" #spassword2>
+        </div>
+        <span class="error"></span>
+        <button type="submit">Submit</button>
+      </form>
+    </li>
+  </ul>
+</div>

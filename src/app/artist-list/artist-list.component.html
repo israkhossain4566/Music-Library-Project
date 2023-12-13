@@ -1,0 +1,20 @@
+<div class="playlist">
+  <h2>Artists</h2>
+  <ul>
+    <li *ngFor="let g of people">
+      <div class="song-info">
+        <img [src]="g.imageURL" style="max-width: 900px; max-height: 200px; margin-right: 20px;" alt="{{ g.name }} Album Art">
+        <div class="details">
+          <h3>{{ g.name }}</h3>
+         
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div class="profile-actions">
+  <button routerLink="/dashboard" style=" font-size: 16px;">Go Back</button>
+</div>
+
+

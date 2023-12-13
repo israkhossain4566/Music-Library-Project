@@ -1,0 +1,31 @@
+
+  .dialog-overview {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; 
+    padding: 20px;
+    background-color: #fff; 
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the buttons in the dialog */
+  .dialog-overview button {
+    margin: 0 5px;
+    padding: 8px 30px;
+    cursor: pointer;
+  }
+  
+  /* Style for the cancel button */
+  .dialog-overview button[slot="footer"] {
+    background-color: #3498db; 
+    color: #fff; 
+  }
+  
+  /* Style for the deactivate button */
+  .dialog-overview button[slot="footer"][type="danger"] {
+    background-color: #e74c3c; 
+  }
+  
